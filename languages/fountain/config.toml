@@ -1,4 +1,4 @@
 name = "Fountain"
 grammar = "fountain"
 path_suffixes = ["fountain", "fou"]
-line_comments = ["# "]
+block_comment = ["/* ", " */"]
