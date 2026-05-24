@@ -1,0 +1,16 @@
+id = "fountain"
+name = "Fountain"
+description = "Fountain screenplay language support"
+version = "0.1.0"
+schema_version = 1
+authors = ["Fountain LSP Team"]
+repository = ""
+
+[grammars.fountain]
+repository = "https://github.com/ArmingLou/fountain-tree-sitter"
+commit = "17bf67573a66095df8f4d8a59ccd8be5a1e3c540"
+
+[language_servers.fountain-lsp]
+name = "Fountain LSP"
+language = "Fountain"
+language_server_command = ["fountain-lsp"]

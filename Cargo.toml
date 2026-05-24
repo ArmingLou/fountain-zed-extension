@@ -1,0 +1,17 @@
+[package]
+name = "fountain-zed-extension"
+version = "0.1.0"
+description = "Fountain screenplay language support for Zed"
+authors = ["Fountain LSP Team"]
+license = "MIT"
+edition = "2021"
+
+[lib]
+path = "src/lib.rs"
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+zed_extension_api = "0.7"
+
+[target.wasm32-wasip2]
+crate-type = ["cdylib"]
