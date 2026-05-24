@@ -1,49 +1,59 @@
 ; Fountain 语法高亮定义
 
-; 场景标题 - 显著的标题样式
+; 场景标题
 (scene_heading) @keyword
 
-; 转场 - 类似关键字
+; 转场
 (transition) @type
 
 ; 居中文本
 (centered) @string
 
-; 角色台词 - 强调
-(character_line) @attribute
+; 角色
+(character) @attribute
 
 ; 括号说明
 (parenthetical) @comment
 
-; 对白 - 正文
+; 对白
 (dialogue) @string
 
 ; 动作描述
 (action) @string
 
-; 章节标题 - 类似标题
-(section) @heading
+; 章节标题
+(section_heading) @heading
 
 ; 概要
 (synopsis) @comment
 
 ; 标题页
-(title_page_line) @heading
+(title_page) @heading
+(title_page_field) @heading
 
 ; 歌词
-(lyrics) @string.special
+(lyric) @string.special
 
-; 内联注释 - 类似注释
-(note_inline) @comment
+; 笔记/注释
+(note) @comment
 
-; 注释块 (boneyard)
+; 注释块
 (boneyard) @comment
 
 ; 分页符
 (page_break) @punctuation
-
-; 分隔符
-(separator) @punctuation
+(page_break_marker) @punctuation
 
 ; 场景位置
 (scene_location) @variable
+
+; 场景时间
+(scene_time) @variable
+
+; 场景号
+(scene_number) @number
+
+; 强制标记
+(forced_character_start) @attribute
+(forced_transition_start) @type
+(forced_action_start) @string

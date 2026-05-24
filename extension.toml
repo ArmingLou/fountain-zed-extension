@@ -8,7 +8,7 @@ repository = ""
 
 [grammars.fountain]
 repository = "https://github.com/ArmingLou/fountain-tree-sitter"
-commit = "17bf67573a66095df8f4d8a59ccd8be5a1e3c540"
+commit = "3d41f915d7f6745dfd769c70e68b16237eb0bf15"
 
 [language_servers.fountain-lsp]
 name = "Fountain LSP"
