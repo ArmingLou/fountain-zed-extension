@@ -40,7 +40,10 @@
 ;; Notes [[text]]
 (note) @comment
 (note_start) @comment
-(note_content_nested) @comment
+(note_content) @comment
+
+;; 行内备注 [[text]]，用于 action 行内
+(inline_note) @comment
 
 ;; Forced elements
 (forced_action_start) @comment
@@ -66,4 +69,6 @@
 ;; Boneyard /* ... */
 (boneyard) @comment
 (boneyard_start) @comment
-(boneyard_content_nested) @comment
+
+;; 行内注释 /*...*/，用于 action 行内
+(inline_boneyard) @comment
