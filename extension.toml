@@ -14,7 +14,7 @@ rev = "fda536274e1ca702bd9513d2231cbb974c458e25"
 
 [grammars.fountain_inline]
 repository = "https://github.com/ArmingLou/fountain-tree-sitter-inline"
-rev = "b599c75cd564c303fd833a36d3cda0825e37b9d6"
+rev = "d17a34cca699ecae83fb2d47ad914395a197c741"
 
 [language_servers.fountain-lsp]
 name = "Fountain LSP"
