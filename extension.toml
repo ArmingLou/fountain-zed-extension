@@ -10,7 +10,7 @@ languages = ["languages/fountain", "languages/fountain_inline"]
 
 [grammars.fountain]
 repository = "https://github.com/ArmingLou/fountain-tree-sitter"
-rev = "17d2b4768f7e9520791425a041fb9234c8b60cea"
+rev = "fda536274e1ca702bd9513d2231cbb974c458e25"
 
 [grammars.fountain_inline]
 repository = "https://github.com/ArmingLou/fountain-tree-sitter-inline"
