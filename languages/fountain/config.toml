@@ -2,3 +2,4 @@ name = "Fountain"
 grammar = "fountain"
 path_suffixes = ["fountain", "fou"]
 block_comment = ["/* ", " */"]
+injections = true

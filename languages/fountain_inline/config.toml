@@ -1,0 +1,3 @@
+name = "fountain_inline"
+grammar = "fountain_inline"
+path_matchers = []
