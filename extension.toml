@@ -6,15 +6,13 @@ schema_version = 1
 authors = ["Fountain LSP Team"]
 repository = ""
 
-languages = ["languages/fountain", "languages/fountain_inline"]
-
 [grammars.fountain]
 repository = "https://github.com/ArmingLou/fountain-tree-sitter"
 rev = "fda536274e1ca702bd9513d2231cbb974c458e25"
 
 [grammars.fountain_inline]
 repository = "https://github.com/ArmingLou/fountain-tree-sitter-inline"
-rev = "d17a34cca699ecae83fb2d47ad914395a197c741"
+rev = "4bae1109fa23d2128d15718515a16cdb0cc6af36"
 
 [language_servers.fountain-lsp]
 name = "Fountain LSP"
